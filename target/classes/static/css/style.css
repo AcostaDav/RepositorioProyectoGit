@@ -19,7 +19,13 @@
 }
 
 body {
-    background-image: url(https://img3.wallspic.com/crops/8/6/6/8/6/168668/168668-smartphone-manga-dispositivo_electronico-espacio-accesorio_de_moda-1920x1080.jpg);
+
+    background-size: 100vw 100vh;
+    
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-image:url(https://img3.wallspic.com/crops/8/6/6/8/6/168668/168668-smartphone-manga-dispositivo_electronico-espacio-accesorio_de_moda-1920x1080.jpg);
+   
     font-family: Quicksand, san-serif;
 }
 
