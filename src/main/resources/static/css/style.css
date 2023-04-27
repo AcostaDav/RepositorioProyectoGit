@@ -19,7 +19,7 @@
 }
 
 body {
-    background: #A5DAD2;
+    background-image: url(https://img3.wallspic.com/crops/8/6/6/8/6/168668/168668-smartphone-manga-dispositivo_electronico-espacio-accesorio_de_moda-1920x1080.jpg);
     font-family: Quicksand, san-serif;
 }
 
@@ -36,7 +36,10 @@ body {
 }
 
 .colorDark {
-    color: #516D66;
+    color: #ffffff;
+    border-radius: 15px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .bgRed {
