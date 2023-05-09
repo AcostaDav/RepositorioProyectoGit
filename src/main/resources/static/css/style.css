@@ -95,3 +95,19 @@ body {
 .scoreBoard span.active {
     border-bottom: 4px solid #F286A0;
 }
+.reiniciar{
+    display: none;
+}
+
+#reiniciar{
+    margin-bottom: 60px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    font-family:'Times New Roman', Times, serif;
+    border-color: white;
+       
+}
