@@ -124,7 +124,7 @@ class Board {
         }
 
         if(label == 'O'){
-            cell.style.backgroundImage="url(https://www.pngall.com/wp-content/uploads/11/Pink-Donut-PNG-Cutout.png)";
+            cell.style.backgroundImage="url('/js/donut.png')";
         }
     }
 
