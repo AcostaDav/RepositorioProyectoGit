@@ -66,7 +66,7 @@ body {
 
 .gameBoard td {
     text-align: center;
-    color: #516D66;
+    color: #ff0000;
     font-size: 8em;
     cursor: pointer;
     transition: all 0.5s;
@@ -75,6 +75,9 @@ body {
 .gameCell {
     width: 181px;
     height: 181px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 .gameCell:not(.marked):hover {
@@ -102,5 +105,5 @@ body {
 }
 
 .scoreBoard span.active {
-    border-bottom: 4px solid #F286A0;
+    border-bottom: 4px solid #74011c;
 }
