@@ -19,7 +19,13 @@
 }
 
 body {
-    background: #A5DAD2;
+
+    background-size: 100vw 100vh;
+    
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-image:url(https://img3.wallspic.com/crops/8/6/6/8/6/168668/168668-smartphone-manga-dispositivo_electronico-espacio-accesorio_de_moda-1920x1080.jpg);
+   
     font-family: Quicksand, san-serif;
 }
 
@@ -36,7 +42,10 @@ body {
 }
 
 .colorDark {
-    color: #516D66;
+    color: #ffffff;
+    border-radius: 15px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .bgRed {
@@ -57,7 +66,7 @@ body {
 
 .gameBoard td {
     text-align: center;
-    color: #516D66;
+    color: #ff0000;
     font-size: 8em;
     cursor: pointer;
     transition: all 0.5s;
@@ -66,6 +75,9 @@ body {
 .gameCell {
     width: 181px;
     height: 181px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 .gameCell:not(.marked):hover {
@@ -78,7 +90,7 @@ body {
 }
 
 .scoreBoard {
-    color: #516D66;
+    color: #ffffff;
     height: 100px;
 }
 
@@ -93,7 +105,7 @@ body {
 }
 
 .scoreBoard span.active {
-    border-bottom: 4px solid #F286A0;
+    border-bottom: 4px solid #74011c;
 }
 .reiniciar{
     display: none;

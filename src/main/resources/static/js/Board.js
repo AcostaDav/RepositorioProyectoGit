@@ -116,9 +116,16 @@ class Board {
 
     doMark(cellId, label) {
         let cell = this.cells[cellId];
-        cell.textContent = label;
         cell.classList.add('notActive');
         cell.setAttribute('marked', 'true');
+
+        if(label == 'X'){
+            cell.style.backgroundImage="url(https://png.pngtree.com/png-clipart/20210311/big/pngtree-red-x-fork-png-image_6001925.png)";
+        }
+
+        if(label == 'O'){
+            cell.style.backgroundImage="url('/js/donut.png')";
+        }
     }
 
     doWinner(winner, pos) {
