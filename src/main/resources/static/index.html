@@ -18,6 +18,7 @@
 					<span id="p1Score"></span>
 				</h1>
 			</div>
+			<label id="countdown"></label>
 			<div class="col-sm-3 scoreBoard">
 				<h1 class="text-right">
 					<span id="p2Score"></span>
@@ -34,7 +35,11 @@
 						<div class="input-group">
 							<input class="form-control input-lg" id="nickname"
 								autofocus="autofocus" /><span class="input-group-btn">
+
+								<button class="btn btn-lg btn-danger" id="startBtn" onclick="PlayAudio">PLAY!</button>
+
 								<button class="btn btn-lg btn-danger" id="startBtn">JUGAR!</button>
+
 							</span>
 						</div>
 					</div>
@@ -45,9 +50,18 @@
 		<button class="reiniciar" id="reiniciar" onclick="window.location.reload()">REINICIAR
 		</button>
 	</div>
-
 	<script src="/js/Board.js"></script>
 	<script src="/js/app.js"></script>
+
+	<audio loop id="musica1" controls>
+        <source src="js/musica.mp3" type="audio/mpeg">
+        Este navegador no acepta audio
+    </audio>
+    <script>
+        function PlayAudio(){
+            document.getElementById("musica1").play();
+        }
+    </script>
 
 </body>
 </html>
