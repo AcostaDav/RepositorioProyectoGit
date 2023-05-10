@@ -206,7 +206,6 @@ class Board {
         }
         document.getElementById('countdown').innerHTML=minutes+":"+remainingSeconds;
         seconds++;
-        var countFinish = setTimeout(reset,120000);
     } 
     var countdownTimer = setInterval(secondPassed,1000);
 
