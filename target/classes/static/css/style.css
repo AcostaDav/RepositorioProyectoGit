@@ -95,7 +95,8 @@ body {
 .scoreBoard span.active {
     border-bottom: 4px solid #F286A0;
 }
+
 label{
-    font-size: 37px;
     color: blue;
+    font-size: 37px;
 }
